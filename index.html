@@ -1,0 +1,121 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendVault homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">TrendVault</div>
+
+        <nav class="nbr">
+            <a href="index.html">Home</a>
+            <a href="collection.html">Collection</a>
+            <a href="shop.html">Shop</a>
+            <a href="cart.html">Cart</a>
+            <a href="about.html">About Us</a>
+
+        </nav>
+
+        <div class="cart">
+            <input type="text" class="inpf" placeholder="Search...">
+            <img src="cart-regular-24.png" alt="Cart" width="24">
+            <i class="fa-solid fa-bars" style="font-size:x-large;"></i>
+
+        </div>
+    </header>
+
+    <main class="kkuchbi">
+        <div class="image-grid">
+            <img src="img.png" alt="Fashion items">
+        </div>
+        <div class="content">
+            <div class="brand-name">TrendVault</div>
+            <h1>Find your favourite style, all the fashion you need is here</h1>
+            <p>We have many promos for you every day, don't miss out. Checkout now!</p>
+            <a href="shop.html" class="btn btn-dark">Shop Now</a>
+
+        </div>
+    </main>
+    <main class="shop">
+        <h1 class="page-title">Our Exclusive Collection</h1>
+        <p class="description">Discover our top picks for every season and occasion.</p>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="collection3 - Copy.jpg" alt="Women wears">
+                <h2>Women wear</h2>
+                <p>Your wardrobe deserves a fresh vibe.</p>
+            </div>
+            <div class="product-item">
+                <img src="collection2.jpg" alt="Accessories">
+                <h2>Accessories</h2>
+                <p>Accessories that speak your unique vibe.</p>
+            </div>
+            <div class="product-item">
+                <img src="collection 3.jpg" alt="Footwear">
+                <h2>Footwear</h2>
+                <p>Step into style, walk with confidence.</p>
+            </div>
+        </div>
+    </main>
+    <main class="about">
+        <h1 class="page-title">About TrendVault</h1>
+        <p class="description">We are passionate about delivering trendy, high-quality fashion to you.</p>
+        <p>At TrendVault, we believe in combining style with comfort. Our collection is carefully curated to match the
+            latest trends while ensuring premium quality. We prioritize sustainability and customer satisfaction above
+            all else.</p>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 TrendVault. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Contact Us
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <form action="">
+            Name : 
+            <input type="text" class="form-control">
+            <button class="btn btn-success">Submit</button>
+         </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
