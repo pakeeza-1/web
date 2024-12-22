@@ -105,6 +105,14 @@ main {
     background-color: #fff;
     
 }
+.hello{
+    width: 30% !important;
+    height: 20vh !important;
+}
+.hello:hover{
+    width: 35% !important;
+    height: 25vh !important;
+}
 
 .image-grid img {
     width: 100%;
@@ -116,8 +124,7 @@ main {
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    
 }
 .brand-name {
     font-size: 58px;
